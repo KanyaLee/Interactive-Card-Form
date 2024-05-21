@@ -1,0 +1,6 @@
+.front-card {
+    width: 350px;
+    height: 180px;
+    background-image: url("../../public/images/bg-card-front.png");
+    border-radius: 10px;
+}

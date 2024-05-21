@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import FrontCard from './FrontCard.tsx';
+import BackCard from './BackCard.tsx';
 
 
 const InputForm: React.FC = () => {
@@ -51,6 +52,10 @@ const InputForm: React.FC = () => {
                 month={inputMonth}
                 year={inputYear}
                 />
+
+            <BackCard 
+                cvc={inputCVC} />
+
             <form onSubmit={handleSubmit}>
                 <p>CARDHOLDER NAME</p>
                 <input 
