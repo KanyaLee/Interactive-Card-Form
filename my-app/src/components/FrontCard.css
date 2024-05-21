@@ -3,4 +3,37 @@
     height: 180px;
     background-image: url("../../public/images/bg-card-front.png");
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.front-card__logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.front-card__number {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+
+}
+
+.front-card__detail {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #fff;
+    position: absolute;
+    top: 120px;
+
+
 }

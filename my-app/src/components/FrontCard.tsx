@@ -20,8 +20,11 @@ const FrontCard: React.FC<FrontCardProps> = ({name, cardNumber, month, year}) =>
         </div>
         <div className="front-card__number">
             {cardNumber ? cardNumber:'0000 0000 0000 0000'}</div>
-        <div className="front-card__name">{name ? name: 'Jane Appleseed'}</div>
-        <div className="front-card__date">{month ? month: 'MM'}/{year? year: 'YY'}</div>
+        
+        <div className='front-card__detail'>
+            <div className="front-card__name">{name ? name: 'Jane Appleseed'}</div>
+            <div className="front-card__date">{month ? month: 'MM'}/{year? year: 'YY'}</div>
+        </div>
     </div>
     )
      }
